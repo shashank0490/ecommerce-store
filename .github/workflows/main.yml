@@ -23,5 +23,4 @@ jobs:
       with:
         host: ${{ secrets.SONARQUBE_HOST }}
         login: ${{ secrets.SONARQUBE_TOKEN }}
-        projectBaseDir: "ecommerce-store/backend/"
         projectKey: "ecommerce-store"
