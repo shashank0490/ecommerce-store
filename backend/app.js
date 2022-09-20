@@ -9,7 +9,6 @@ const path = require("path");
 
 // Body parser middleware
 app.use(express.json());
-app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Add headers in order to perform all operation on API
