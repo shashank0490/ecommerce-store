@@ -1,5 +1,6 @@
 const express = require("express");
 const PORT = process.env.PORT || 5000;
+const PORT2 = process.env.PORT || 5001;
 const app = express();
 require("./db");
 const productRoute = require("./routes/product");
@@ -8,7 +9,7 @@ const path = require("path");
 /************ MIDDLEVARES *************/
 
 // Body parser middleware
-app.use(express.json());
+app.use(express.jsson());
 app.use(express.urlencoded({ extended: true }));
 
 // Add headers in order to perform all operation on API
