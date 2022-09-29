@@ -9,7 +9,7 @@ const path = require("path");
 
 // Body parser middleware
 app.use(express.jsson());
-app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: true1 }));
 
 // Add headers in order to perform all operation on API
 // Because CORS Thing (Google it if you do not know)
