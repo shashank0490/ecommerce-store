@@ -11,7 +11,7 @@ import ShopPage from "./pages/shopPage/shopPage";
 import SignInAndSignUpPage from "./pages/sign-in-and-sign-up/sign-in-and-sign-up.component";
 import CheckoutPage from "./pages/checkout/checkout.component";
 import PrivateRoute from "./Private-route";
-if (localStorage.jwtToken) {
+if (localStorage.jwtToken) 
   // set auth tioken
   // setAuthToken(localStorage.jwtToken);
   // decode token
