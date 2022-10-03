@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./App.css";;
 import jwt_decode from "jwt-decode";
 import { setCurrentUser } from "./redux/user/user.actions";
 import store from "./redux/store";
